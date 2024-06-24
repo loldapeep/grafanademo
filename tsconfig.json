@@ -113,7 +113,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "baseUrl": "public/",
+    "baseUrl": "src/",
     "outDir": "public/dist",
     "rootDirs": ["public/"],
     "allowJs": true,

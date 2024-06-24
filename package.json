@@ -256,6 +256,7 @@
     "@grafana/flamegraph": "workspace:*",
     "@grafana/google-sdk": "0.1.2",
     "@grafana/lezer-logql": "0.2.4",
+    "@grafana/lezer-traceql": "0.0.17",
     "@grafana/monaco-logql": "^0.0.7",
     "@grafana/o11y-ds-frontend": "workspace:*",
     "@grafana/prometheus": "workspace:*",
