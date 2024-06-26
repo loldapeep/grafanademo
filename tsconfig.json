@@ -113,7 +113,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "baseUrl": "src/",
+    "baseUrl": "public/",
     "outDir": "public/dist",
     "rootDirs": ["public/"],
     "allowJs": true,
@@ -128,10 +128,10 @@
   },
   "extends": "@grafana/tsconfig/base.json",
   "include": [
-    "src/app/**/*.ts*",
+    "public/app/**/*.ts*",
     // "public/e2e-test/**/*.ts",
     // "public/test/**/*.ts*",
-    "src/vendor/**/*.ts",
+    "public/vendor/**/*.ts",
     "packages/grafana-data/typings",
     "packages/grafana-ui/src/types"
   ],

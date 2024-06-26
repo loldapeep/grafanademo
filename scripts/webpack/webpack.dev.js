@@ -32,7 +32,7 @@ module.exports = (env = {}) => {
     mode: 'development',
 
     entry: {
-      app: './public/app/index.ts',
+      app: './public/app/index.tsx',
       dark: './public/sass/grafana.dark.scss',
       light: './public/sass/grafana.light.scss',
     },

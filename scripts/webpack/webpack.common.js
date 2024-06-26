@@ -6,7 +6,7 @@ const CorsWorkerPlugin = require('./plugins/CorsWorkerPlugin');
 module.exports = {
   target: 'web',
   entry: {
-    app: './public/app/index.ts',
+    app: './public/app/index.tsx',
   },
   output: {
     clean: true,
