@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const CorsWorkerPlugin = require('./plugins/CorsWorkerPlugin');
 
 module.exports = {
+  watch: true,
   target: 'web',
   entry: {
     app: './public/app/index.tsx',

@@ -1,16 +1,37 @@
+import { locationSearchToObject } from '@grafana/runtime';
+import BrowseDashboardsPage from 'app/features/browse-dashboards/BrowseDashboardsPage';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import './index.css';
 // import reportWebVitals from './reportWebVitals';
-import BrowseDashboardsPage from "./features/browse-dashboards/BrowseDashboardsPage";
+// import BrowseDashboardsPage from "./features/browse-dashboards/BrowseDashboardsPage";
+import { Route, RouteComponentProps, Switch } from 'react-router-dom';
+import { SafeDynamicImport } from './core/components/DynamicImports/SafeDynamicImport';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const route = {
+  path: '/dashboards',
+  component: SafeDynamicImport(
+    () => import(/* webpackChunkName: "DashboardListPage"*/ 'app/features/browse-dashboards/BrowseDashboardsPage')
+  ),
+}
 root.render(
   <React.StrictMode>
-    <BrowseDashboardsPage/>
-    {/* <Main/> */}
+      <Switch>
+        <Route
+          exact={true}
+          sensitive={true}
+          path={route.path}
+          key={route.path}
+          render={(props: RouteComponentProps) => {
+
+            return <BrowseDashboardsPage {...props} route={route} queryParams={locationSearchToObject(props.location.search)} />
+          }}
+        />        
+      </Switch>
+
   </React.StrictMode>
 );
 

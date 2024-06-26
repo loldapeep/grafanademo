@@ -10,6 +10,7 @@ const { DefinePlugin } = require('webpack');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
 const { merge } = require('webpack-merge');
 const WebpackBar = require('webpackbar');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const common = require('./webpack.common.js');
 const esbuildTargets = resolveToEsbuildTarget(browserslist(), { printUnknownTargets: false });
@@ -30,6 +31,11 @@ module.exports = (env = {}) => {
   return merge(common, {
     devtool: 'source-map',
     mode: 'development',
+    devServer: {
+      // contentBase: './dist',
+      hot: true,
+      port: 8080, // default port is 8080
+    },
 
     entry: {
       app: './public/app/index.tsx',
@@ -133,6 +139,10 @@ module.exports = (env = {}) => {
       new WebpackBar({
         color: '#eb7b18',
         name: 'Grafana',
+      }),
+      new HtmlWebpackPlugin({
+        inject: true,
+        template: "public/index.html",
       }),
     ],
 
