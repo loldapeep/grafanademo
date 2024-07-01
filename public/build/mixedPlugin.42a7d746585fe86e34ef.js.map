@@ -1,1 +1,0 @@
-{"version":3,"file":"mixedPlugin.42a7d746585fe86e34ef.js","mappings":";;;;;;;;;;;;;AAAgC;AAC0B","sources":["webpack://grafana/./public/app/plugins/datasource/mixed/module.ts"],"sourcesContent":["import { MixedDatasource } from './MixedDataSource';\nexport { MixedDatasource, MixedDatasource as Datasource };\n"],"names":[],"sourceRoot":""}

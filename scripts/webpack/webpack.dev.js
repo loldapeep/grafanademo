@@ -82,6 +82,7 @@ module.exports = (env = {}) => {
     // https://webpack.js.org/guides/build-performance/#output-without-path-info
     output: {
       pathinfo: false,
+      
     },
 
     // https://webpack.js.org/guides/build-performance/#avoid-extra-optimization-steps
@@ -139,10 +140,6 @@ module.exports = (env = {}) => {
       new WebpackBar({
         color: '#eb7b18',
         name: 'Grafana',
-      }),
-      new HtmlWebpackPlugin({
-        inject: true,
-        template: "public/index.html",
       }),
     ],
 

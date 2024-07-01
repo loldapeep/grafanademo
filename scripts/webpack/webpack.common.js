@@ -10,6 +10,7 @@ module.exports = {
     app: './public/app/index.tsx',
   },
   output: {
+    globalObject: "global",
     clean: true,
     path: path.resolve(__dirname, '../../public/build'),
     filename: '[name].[contenthash].js',

@@ -30,6 +30,9 @@ root.render(
             return <BrowseDashboardsPage {...props} route={route} queryParams={locationSearchToObject(props.location.search)} />
           }}
         />        
+        <Route path='/'>
+          <div>lmao</div>
+        </Route>
       </Switch>
 
   </React.StrictMode>

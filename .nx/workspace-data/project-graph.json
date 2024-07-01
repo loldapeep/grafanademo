@@ -1861,6 +1861,15 @@
         "hash": "10c0/2b52a73e444f6adc73f927b623e53a4cf64397170dd1071268536df1b3db1e02131418c8dc91351af48837a6298212118f4a72d5407f8005cf9a732370a315b0"
       }
     },
+    "npm:@babel/plugin-proposal-export-default-from": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-proposal-export-default-from",
+      "data": {
+        "version": "7.24.7",
+        "packageName": "@babel/plugin-proposal-export-default-from",
+        "hash": "10c0/ebc98b1bc0b9334a82030f8fe93f9a9de546982c5402b936c8cfae3eec63742ceb862d95104ac8976293aa2dd9c1b7a8cbebc44da3d63bbf3896517ad47616a4"
+      }
+    },
     "npm:@babel/plugin-proposal-export-namespace-from": {
       "type": "npm",
       "name": "npm:@babel/plugin-proposal-export-namespace-from",
@@ -1922,6 +1931,15 @@
         "version": "7.8.3",
         "packageName": "@babel/plugin-syntax-dynamic-import",
         "hash": "10c0/9c50927bf71adf63f60c75370e2335879402648f468d0172bc912e303c6a3876927d8eb35807331b57f415392732ed05ab9b42c68ac30a936813ab549e0246c5"
+      }
+    },
+    "npm:@babel/plugin-syntax-export-default-from": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-syntax-export-default-from",
+      "data": {
+        "version": "7.24.7",
+        "packageName": "@babel/plugin-syntax-export-default-from",
+        "hash": "10c0/2748bcd6777d1ef29d568815915df5db043744364a4bc746e8b27f2f461de89a4bdf332764339146ef91b8474440edf04c745e97ef0360effb4ac35e750379a4"
       }
     },
     "npm:@babel/plugin-syntax-export-namespace-from": {
@@ -3668,6 +3686,15 @@
         "version": "0.2.4",
         "packageName": "@grafana/lezer-logql",
         "hash": "10c0/d32287c05a7588c0a6895e9838c5cbb4828e8e909707b9f8d2e21e93f0e56d18a20701a5dcc9eece0cbd4d6fc41d24ee814c8d4d174ae708fe587ddffaa69466"
+      }
+    },
+    "npm:@grafana/lezer-traceql": {
+      "type": "npm",
+      "name": "npm:@grafana/lezer-traceql",
+      "data": {
+        "version": "0.0.17",
+        "packageName": "@grafana/lezer-traceql",
+        "hash": "10c0/5ce7d2eb393fd262c18f8ff18aea1f8caa19afb5c9f60b1858481a107844a7e5f328d5b79cfbe1860f2c7f1e136fa46b9ec882a8625334bd916dd09d2d7fe082"
       }
     },
     "npm:@grafana/monaco-logql": {
@@ -10478,18 +10505,18 @@
       "type": "npm",
       "name": "npm:buffer",
       "data": {
-        "version": "5.7.1",
-        "packageName": "buffer",
-        "hash": "10c0/27cac81cff434ed2876058d72e7c4789d11ff1120ef32c9de48f59eab58179b66710c488987d295ae89a228f835fc66d088652dffeb8e3ba8659f80eb091d55e"
-      }
-    },
-    "npm:buffer@6.0.3": {
-      "type": "npm",
-      "name": "npm:buffer@6.0.3",
-      "data": {
         "version": "6.0.3",
         "packageName": "buffer",
         "hash": "10c0/2a905fbbcde73cc5d8bd18d1caa23715d5f83a5935867c2329f0ac06104204ba7947be098fe1317fbd8830e26090ff8e764f08cd14fefc977bb248c3487bcbd0"
+      }
+    },
+    "npm:buffer@5.7.1": {
+      "type": "npm",
+      "name": "npm:buffer@5.7.1",
+      "data": {
+        "version": "5.7.1",
+        "packageName": "buffer",
+        "hash": "10c0/27cac81cff434ed2876058d72e7c4789d11ff1120ef32c9de48f59eab58179b66710c488987d295ae89a228f835fc66d088652dffeb8e3ba8659f80eb091d55e"
       }
     },
     "npm:builtin-modules": {
@@ -24694,6 +24721,15 @@
         "hash": "10c0/598fea66bfa24fdb0c25671d10c5edbdc0c81f14c5fb0e3e501cefcfb7aadaa8e28286a9eb1344ac105b826e803d2cd7e895927e5273a9122fc9ddd86c3ae4dc"
       }
     },
+    "npm:stream-browserify": {
+      "type": "npm",
+      "name": "npm:stream-browserify",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "stream-browserify",
+        "hash": "10c0/ec3b975a4e0aa4b3dc5e70ffae3fc8fd29ac725353a14e72f213dff477b00330140ad014b163a8cbb9922dfe90803f81a5ea2b269e1bbfd8bd71511b88f889ad"
+      }
+    },
     "npm:stream-composer": {
       "type": "npm",
       "name": "npm:stream-composer",
@@ -24829,18 +24865,18 @@
         "hash": "10c0/d53af1899959e53c83b64a5fd120be93e067da740e7e75acb433849aa640782fb6c7d4cd5b84c954c84413745a3764df135a8afeb22908b86a835290788d8366"
       }
     },
-    "npm:string_decoder@1.3.0": {
+    "npm:string_decoder": {
       "type": "npm",
-      "name": "npm:string_decoder@1.3.0",
+      "name": "npm:string_decoder",
       "data": {
         "version": "1.3.0",
         "packageName": "string_decoder",
         "hash": "10c0/810614ddb030e271cd591935dcd5956b2410dd079d64ff92a1844d6b7588bf992b3e1b69b0f4d34a3e06e0bd73046ac646b5264c1987b20d0601f81ef35d731d"
       }
     },
-    "npm:string_decoder": {
+    "npm:string_decoder@1.1.1": {
       "type": "npm",
-      "name": "npm:string_decoder",
+      "name": "npm:string_decoder@1.1.1",
       "data": {
         "version": "1.1.1",
         "packageName": "string_decoder",
@@ -31956,6 +31992,18 @@
         "type": "static"
       }
     ],
+    "npm:@babel/plugin-proposal-export-default-from": [
+      {
+        "source": "npm:@babel/plugin-proposal-export-default-from",
+        "target": "npm:@babel/helper-plugin-utils",
+        "type": "static"
+      },
+      {
+        "source": "npm:@babel/plugin-proposal-export-default-from",
+        "target": "npm:@babel/plugin-syntax-export-default-from",
+        "type": "static"
+      }
+    ],
     "npm:@babel/plugin-proposal-export-namespace-from": [
       {
         "source": "npm:@babel/plugin-proposal-export-namespace-from",
@@ -31999,6 +32047,13 @@
     "npm:@babel/plugin-syntax-dynamic-import": [
       {
         "source": "npm:@babel/plugin-syntax-dynamic-import",
+        "target": "npm:@babel/helper-plugin-utils",
+        "type": "static"
+      }
+    ],
+    "npm:@babel/plugin-syntax-export-default-from": [
+      {
+        "source": "npm:@babel/plugin-syntax-export-default-from",
         "target": "npm:@babel/helper-plugin-utils",
         "type": "static"
       }
@@ -44191,7 +44246,7 @@
     "npm:bl": [
       {
         "source": "npm:bl",
-        "target": "npm:buffer",
+        "target": "npm:buffer@5.7.1",
         "type": "static"
       },
       {
@@ -44208,7 +44263,7 @@
     "npm:bl@5.1.0": [
       {
         "source": "npm:bl@5.1.0",
-        "target": "npm:buffer@6.0.3",
+        "target": "npm:buffer",
         "type": "static"
       },
       {
@@ -44438,14 +44493,14 @@
         "type": "static"
       }
     ],
-    "npm:buffer@6.0.3": [
+    "npm:buffer@5.7.1": [
       {
-        "source": "npm:buffer@6.0.3",
+        "source": "npm:buffer@5.7.1",
         "target": "npm:base64-js",
         "type": "static"
       },
       {
-        "source": "npm:buffer@6.0.3",
+        "source": "npm:buffer@5.7.1",
         "target": "npm:ieee754",
         "type": "static"
       }
@@ -46145,7 +46200,7 @@
       },
       {
         "source": "npm:cypress",
-        "target": "npm:buffer",
+        "target": "npm:buffer@5.7.1",
         "type": "static"
       },
       {
@@ -60270,7 +60325,7 @@
       },
       {
         "source": "npm:readable-stream@2.3.8",
-        "target": "npm:string_decoder",
+        "target": "npm:string_decoder@1.1.1",
         "type": "static"
       },
       {
@@ -60287,7 +60342,7 @@
       },
       {
         "source": "npm:readable-stream",
-        "target": "npm:string_decoder@1.3.0",
+        "target": "npm:string_decoder",
         "type": "static"
       },
       {
@@ -62019,6 +62074,18 @@
         "type": "static"
       }
     ],
+    "npm:stream-browserify": [
+      {
+        "source": "npm:stream-browserify",
+        "target": "npm:inherits",
+        "type": "static"
+      },
+      {
+        "source": "npm:stream-browserify",
+        "target": "npm:readable-stream",
+        "type": "static"
+      }
+    ],
     "npm:stream-composer": [
       {
         "source": "npm:stream-composer",
@@ -62241,16 +62308,16 @@
         "type": "static"
       }
     ],
-    "npm:string_decoder@1.3.0": [
+    "npm:string_decoder": [
       {
-        "source": "npm:string_decoder@1.3.0",
+        "source": "npm:string_decoder",
         "target": "npm:safe-buffer",
         "type": "static"
       }
     ],
-    "npm:string_decoder": [
+    "npm:string_decoder@1.1.1": [
       {
-        "source": "npm:string_decoder",
+        "source": "npm:string_decoder@1.1.1",
         "target": "npm:safe-buffer@5.1.2",
         "type": "static"
       }
